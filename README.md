@@ -1,0 +1,3 @@
+#Bashrc
+
+Personal bash settings
