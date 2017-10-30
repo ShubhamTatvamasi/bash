@@ -12,3 +12,7 @@ alias p='uptime -p'
 alias d='du -hs'
 alias u='sudo apt-get update'
 alias ug='sudo apt-get upgrade'
+alias viper='sudo docker start -i viper'
+
+# Run sudo GUI apps with wayland
+alias s='xhost local:root > /dev/null'
