@@ -13,6 +13,8 @@ alias d='du -hs'
 alias u='sudo apt-get update'
 alias ug='sudo apt-get upgrade'
 alias viper='sudo docker start -i viper'
+alias clearprint='lprm'
+alias top='top -d 1'
 
 # Run sudo GUI apps with wayland
 alias s='xhost local:root > /dev/null'
