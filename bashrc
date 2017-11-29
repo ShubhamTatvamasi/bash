@@ -22,5 +22,5 @@ alias s='xhost local:root > /dev/null'
 alias resetsound='pulseaudio -k && sudo alsa force-reload'
 
 # Create Ethos Distro
-alias createethos='sudo dd status=progress if=ethos-1.2.3.iso of=/dev/sdb bs=1m'
+alias createethos='sudo dd status=progress if=ethos-1.2.3.iso of=/dev/sdb bs=1M'
 
