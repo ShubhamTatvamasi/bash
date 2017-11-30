@@ -23,7 +23,7 @@ alias resetsound='pulseaudio -k && sudo alsa force-reload'
 
 # Create Ethos Distro, check if the of is correct
 createethos(){
-read -p "Is your SSD is mounted at /dev/sdb [y,n]" doit
+read -p "Is your SSD is mounted at /dev/sdb [Y/n]" doit
 case $doit in
 	y|Y) sudo dd status=progress if=ethos-1.2.3.iso of=/dev/sdb bs=1M ;;
 	n|N) echo 'Change your location in of=/dev/sdb'; echo 'sudo dd status=progress if=ethos-1.2.3.iso of=/dev/sdb bs=1M' ;;
