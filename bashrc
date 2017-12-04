@@ -21,6 +21,10 @@ alias s='xhost local:root > /dev/null'
 # Restart sound deamon
 alias resetsound='pulseaudio -k && sudo alsa force-reload'
 
+# use this command for installing the image "docker run -it ubuntu:trusty /bin/bash"
+# start ubuntu 14.04 image
+alias ubuntu='sudo docker start -i wonderful_goldstine'
+
 # Create Ethos Distro, check if the of is correct
 createethos(){
 read -p "Is your SSD is mounted at /dev/sdb [Y/n]" doit
