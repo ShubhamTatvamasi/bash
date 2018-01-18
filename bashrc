@@ -14,6 +14,7 @@ alias viper='sudo docker start -i viper'
 alias clearprint='lprm'
 alias top='top -d 1'
 alias df='df -h'
+alias f='free -h'
 
 # Run sudo GUI apps with wayland
 alias s='xhost local:root > /dev/null'
