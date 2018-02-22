@@ -17,7 +17,7 @@ alias df='df -h'
 alias f='free -h'
 
 # Run geth with console
-alias gethstart='/opt/geth-alltools-linux-amd64-1.8.1-1e67410e/geth --verbosity 0 --syncmode "light" --rinkeby console'
+alias gethstart='geth --verbosity 0 --syncmode "light" --rinkeby console'
 
 # Run sudo GUI apps with wayland
 alias s='xhost local:root > /dev/null'
