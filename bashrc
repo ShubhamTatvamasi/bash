@@ -39,4 +39,9 @@ case $doit in
 	n|N) echo 'Change your location in of=/dev/sdb'; echo 'sudo dd status=progress if=ethos-1.2.3.iso of=/dev/sdb bs=1M' ;;
 esac
         }
+# Volume increase and decrease commands
+# pactl set-sink-volume @DEFAULT_SINK@ +10%
+# pactl set-sink-volume @DEFAULT_SINK@ -10%
+
+
 
