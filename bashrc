@@ -44,4 +44,9 @@ esac
 # pactl set-sink-volume @DEFAULT_SINK@ -10%
 
 
+export PATH=$PATH:/usr/local/go/bin
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 
