@@ -16,7 +16,11 @@ alias top='top -d 1'
 alias df='df -h'
 alias f='free -h'
 alias t='/opt/tor-browser_en-US/Browser/start-tor-browser --detach;q'
-alias http-server='http-server -c-1'
+alias http-server='http-server -c-1 -o'
+
+# sudo service smbd start
+# sudo service smbd stop
+# sudo service smbd restart
 
 # Run geth with console
 alias gethstart='geth --verbosity 0 --syncmode "light" --rinkeby console'
@@ -49,4 +53,5 @@ export PATH=$PATH:/usr/local/go/bin
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-
+#iptables -I OUTPUT 1 -d 45.55.255.55 -j DROP
+#iptables -I OUTPUT 1 -d 45.55.41.223 -j DROP
