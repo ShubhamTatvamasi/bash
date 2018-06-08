@@ -17,6 +17,7 @@ alias df='df -h'
 alias f='free -h'
 alias t='/opt/tor-browser_en-US/Browser/start-tor-browser --detach;q'
 alias http-server='http-server -c-1 -o'
+alias gti='git'
 
 # sudo service smbd start
 # sudo service smbd stop
