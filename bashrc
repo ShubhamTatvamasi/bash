@@ -16,7 +16,6 @@ alias clearprint='lprm'
 alias top='top -d 1'
 alias df='df -h'
 alias f='free -h'
-alias t='/opt/tor-browser_en-US/Browser/start-tor-browser --detach;q'
 alias http-server='http-server -c-1 -o'
 alias gti='git'
 
