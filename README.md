@@ -1,8 +1,7 @@
-# Bashrc
+# sh
 
-
+config for `.zshrc` `.bashrc` `.profile`
 ```sh
-cat << EOF > .zshrc
 # some more ls aliases
 alias ll='ls -alFh'
 alias la='ls -A'
@@ -61,7 +60,6 @@ export EDITOR="$VISUAL"
 
 #iptables -I OUTPUT 1 -d 45.55.255.55 -j DROP
 #iptables -I OUTPUT 1 -d 45.55.41.223 -j DROP
-EOF
 ```
 
 
