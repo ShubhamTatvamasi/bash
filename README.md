@@ -2,7 +2,7 @@
 
 Personal bash settings
 
-cat .vimrc
+cat ~/.vimrc
 ```vim
 filetype plugin indent on
 syntax on
