@@ -2,6 +2,13 @@
 
 Personal bash settings
 
+cat .vimrc
+```vim
+filetype plugin indent on
+syntax on
+set backspace=indent,eol,start
+```
+
 Count Files and Directories Recursively:
 ```bash
 tree -a | tail -1
