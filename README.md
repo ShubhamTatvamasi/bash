@@ -9,6 +9,12 @@ syntax on
 set backspace=indent,eol,start
 ```
 
+source and export
+```bash
+source tmp.txt
+export $(cut -d= -f1 tmp.txt)
+```
+
 Count Files and Directories Recursively:
 ```bash
 tree -a | tail -1
