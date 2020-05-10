@@ -7,6 +7,7 @@ cat ~/.vimrc
 filetype plugin indent on
 syntax on
 set backspace=indent,eol,start
+set number relativenumber
 ```
 
 source and export
