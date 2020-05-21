@@ -13,8 +13,8 @@ set number relativenumber
 convert all webp file to png
 ```bash
 find . -type f -name '*.webp'  -exec bash -c ' 
-  newfile=$(echo {} | cut -c 3-).png; \
-  dwebp {} -o ${newfile}' \;
+  filename=$(echo {} | cut -c 3- | rev | cut -c 6- | rev).png; \
+  dwebp {} -o ${filename}' \;
 ```
 
 source and export
