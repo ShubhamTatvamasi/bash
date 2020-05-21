@@ -10,6 +10,13 @@ set backspace=indent,eol,start
 set number relativenumber
 ```
 
+convert all webp file to png
+```bash
+find . -type f -name '*.webp'  -exec bash -c ' 
+  newfile=$(echo {} | cut -c 3-).png; \
+  dwebp {} -o ${newfile}' \;
+```
+
 source and export
 ```bash
 source tmp.txt
