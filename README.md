@@ -10,6 +10,15 @@ set backspace=indent,eol,start
 set number relativenumber
 ```
 
+code server
+```bash
+docker run -it -p 8080:8080 \
+  -v "$PWD:/home/coder/project" \
+  -u "$(id -u):$(id -g)" \
+  codercom/code-server:latest --auth none
+```
+
+
 convert all webp files to png
 ```bash
 find . -type f -name '*.webp' -exec bash -c ' \
