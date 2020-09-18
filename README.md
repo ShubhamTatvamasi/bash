@@ -2,6 +2,11 @@
 
 Personal bash settings
 
+pin the XCode library from upgrading
+```bash
+brew pin llvm
+```
+
 cat ~/.vimrc
 ```vim
 filetype plugin indent on
