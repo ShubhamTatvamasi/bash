@@ -1,4 +1,4 @@
-# sh
+# bash
 
 Personal bash settings
 
