@@ -119,4 +119,12 @@ export EDITOR="$VISUAL"
 
 #iptables -I OUTPUT 1 -d 45.55.255.55 -j DROP
 #iptables -I OUTPUT 1 -d 45.55.41.223 -j DROP
+
+# zsh plugins
+plugins=(git
+zsh-autosuggestions
+zsh-syntax-highlighting
+)
+
+
 ```
