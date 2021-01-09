@@ -64,6 +64,9 @@ config for `.zshrc` `.bashrc` `.profile`
 
 # docker alias
 alias d='docker'
+alias di='d images'
+alias dp='d ps'
+alias dpa='dp -a'
 
 # some more aliases
 alias dd='dd status=progress'
