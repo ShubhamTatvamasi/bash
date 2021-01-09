@@ -60,27 +60,37 @@ curl ifconfig.co
 ---
 
 config for `.zshrc` `.bashrc` `.profile`
-```sh
-# some more ls aliases
-alias ll='ls -alFh'
-alias la='ls -A'
-alias l='ls -CF'
+```bash
+
+# docker alias
+alias d='docker'
+
+# some more aliases
 alias dd='dd status=progress'
 alias c='clear'
 alias q='exit'
 alias sl='ls'
 alias p='uptime -p'
-alias d='du -hs'
-alias u='sudo apt-get update'
-alias ug='sudo apt-get upgrade'
+alias du='du -hs'
+alias u='sudo apt update'
+alias ug='sudo apt upgrade'
 alias uug='u;ug'
-alias viper='sudo docker start -i viper'
 alias clearprint='lprm'
 alias top='top -d 1'
 alias df='df -h'
 alias f='free -h'
 alias http-server='http-server -c-1 -o'
 alias gti='git'
+
+export EDITOR="vim"
+
+######### EXTRAS ###########
+
+# zsh plugins
+plugins=(git
+zsh-autosuggestions
+zsh-syntax-highlighting
+)
 
 # sudo service smbd start
 # sudo service smbd stop
@@ -95,10 +105,6 @@ alias s='xhost local:root > /dev/null'
 # Restart sound deamon
 alias resetsound='pulseaudio -k && sudo alsa force-reload'
 
-# use this command for installing the image "docker run -it ubuntu:trusty /bin/bash"
-# start ubuntu 14.04 image
-alias ubuntu='sudo docker start -i wonderful_goldstine'
-
 # Create Ethos Distro, check if the of is correct
 createethos(){
 read -p "Is your SSD is mounted at /dev/sdb [Y/n]" doit
@@ -111,20 +117,9 @@ esac
 # pactl set-sink-volume @DEFAULT_SINK@ +10%
 # pactl set-sink-volume @DEFAULT_SINK@ -10%
 
-
 export PATH=$PATH:/usr/local/go/bin
-
-export VISUAL=vim
-export EDITOR="$VISUAL"
 
 #iptables -I OUTPUT 1 -d 45.55.255.55 -j DROP
 #iptables -I OUTPUT 1 -d 45.55.41.223 -j DROP
-
-# zsh plugins
-plugins=(git
-zsh-autosuggestions
-zsh-syntax-highlighting
-)
-
 
 ```
