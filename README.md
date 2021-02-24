@@ -7,15 +7,6 @@ pin the XCode library from upgrading
 brew pin llvm
 ```
 
-cat ~/.vimrc
-```vim
-filetype plugin indent on
-syntax on
-set backspace=indent,eol,start
-set number relativenumber
-set wildmenu
-```
-
 code server
 ```bash
 docker run -it -p 8080:8080 \
@@ -23,7 +14,6 @@ docker run -it -p 8080:8080 \
   -u "$(id -u):$(id -g)" \
   codercom/code-server:latest --auth none
 ```
-
 
 convert all webp files to png
 ```bash
