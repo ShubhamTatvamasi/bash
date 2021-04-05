@@ -48,8 +48,9 @@ Get the server IP
 curl ifconfig.co
 ```
 
-ncdu - NCurses Disk Usage
-
+```bash
+ncdu # NCurses Disk Usage
+```
 ---
 
 config for `.zshrc` `.bashrc` `.profile`
