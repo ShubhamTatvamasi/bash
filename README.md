@@ -79,6 +79,8 @@ alias f='free -h'
 alias http-server='http-server -c-1 -o'
 alias gti='git'
 
+alias mkctl="microk8s kubectl"
+
 export EDITOR="vim"
 
 ######### EXTRAS ###########
