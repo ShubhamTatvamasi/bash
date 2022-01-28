@@ -123,3 +123,11 @@ export PATH=$PATH:/usr/local/go/bin
 #iptables -I OUTPUT 1 -d 45.55.41.223 -j DROP
 
 ```
+
+
+```bash
+find . -type f -name '*.yml' -exec sed -i '' '1i\
+---
+' {} +
+```
+
